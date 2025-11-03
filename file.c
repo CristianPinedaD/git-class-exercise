@@ -1,9 +1,11 @@
 #include <stdio.h>
 
-int f( int x){
-    return x+2;
+int f(int x) {
+    return x * x; 
 }
 
 int main(void) {
-    print("%d", f(1));
+    
+    printf("%d", f(1)); 
+    
 }
